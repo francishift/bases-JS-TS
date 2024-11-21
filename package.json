@@ -1,0 +1,20 @@
+{
+  "name": "01-bases",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/uikit": "^3.14.5",
+    "typescript": "~5.6.2",
+    "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "uikit": "^3.21.13"
+  }
+}
